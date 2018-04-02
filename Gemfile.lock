@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.11.1)
+    line-bot-api (1.2.2)
     multi_json (1.13.1)
     mustermann (1.0.2)
     rack (2.0.4)
@@ -25,6 +26,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  line-bot-api (~> 1.2, >= 1.2.2)
   sinatra
   sinatra-contrib
 
